@@ -10,6 +10,7 @@ pipeline {
   // to that WORKSPACE
   environment { HOME = '.' }
 
+  // test
   stages {
     stage('Checkout Code') {
       steps {
